@@ -1,0 +1,110 @@
+@font-face 
+{
+    font-family: 'lulo_cleanoutline_bold';
+    src: url('lulocleanoutlinebold-webfont.woff2') format('woff2'), url('lulocleanoutlinebold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    background-color: black;
+    justify-content: center;
+    height:100vh;
+    align-items: center;
+    
+}
+.bg-img{
+    background-image: url("./bg5.jpg"); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:contain; 
+   /* filter:blur(1px); */
+    height:100vh;
+    width:100vw;
+}
+#secret[type=text]{
+    border:white 1px solid ;
+    height:40px;
+    padding:0.2rem;
+    border-radius: 5px;
+    text-align:center;
+
+
+}
+button{
+    background:rgb(240, 237, 237);
+    height:35px;
+    width:85px;
+    border-radius:5px;
+}
+button:hover{
+    background:black;
+    color:white;
+    cursor:pointer;
+}
+
+h1
+{
+    font-family: 'lulo_cleanoutline_bold';
+    font-size: 6em;
+    color: white;
+    text-align: center;
+}
+.content{
+    background-image: url("./bg5.jpg"); 
+    /* background-color: rgba(0,0,0, 0.4); Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+   
+}
+#word
+{
+    font-family: 'lulo_cleanoutline_bold';
+    font-size: 6vw;
+    color: white;
+    text-align: center;
+}
+
+
+.content
+{
+    text-align: center;
+}
+
+img
+{ 
+    max-width: 300px;
+    max-height: 300px;
+    display: block;
+    margin: 0 auto;
+    width: auto;
+    height: auto;
+}
+
+canvas, img
+{
+    display: none;
+}
+@media screen and (max-width: 750px) {
+    .content {
+      width: 80%;
+    }
+    #heading {
+      font-size: 3.5em;
+    }
+  }
