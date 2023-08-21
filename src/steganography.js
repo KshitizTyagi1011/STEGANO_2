@@ -54,7 +54,7 @@ function decode() {
   let ctx = document.getElementById('canvas').getContext('2d');
   let imgData = ctx.getImageData(0, 0, ctx.canvas.width, ctx.canvas.height);
   let message = decodeMessage(imgData.data);
-  alert("The message encode is:\n" + message);
+  alert("The message decoded is:\n" + message);
 };
 
 // Encodes message using LSB method
