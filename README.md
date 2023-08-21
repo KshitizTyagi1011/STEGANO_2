@@ -7,7 +7,7 @@ An Image Steganography (hiding/encoding information(text) in an image) web app.
 
 <br>
 
-<h4>Frameworks used:</h4>
+<h4>Library used:</h4>
 <ul>
   <li>
     <a href="https://reactjs.org/">  React Js </a>
